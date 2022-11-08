@@ -13,36 +13,38 @@
       <div class="calculator">
         <header class="screen">
           <div class="result">
-            <p>5768</p>
+            <p id="full-result"></p>
           </div>
           <div class="operation">
-            <p>5000 + 3000 + 468</p>
+            <p id="full-operation"></p>
           </div>
         </header>
         <section class="buttons">
           <div class="container-buttons">
-            <button class="options reset">AC</button>
-            <button class="options delete">Del</button>
-            <button class="options percent">%</button>
-            <button class="options bash">/</button>
-            <button class="number seven">7</button>
-            <button class="number eight">8</button>
-            <button class="number nine">9</button>
-            <button class="options multi">X</button>
-            <button class="number four">4</button>
-            <button class="number five">5</button>
-            <button class="number six">6</button>
-            <button class="options less">-</button>
-            <button class="number one">1</button>
-            <button class="number two">2</button>
-            <button class="number three">3</button>
-            <button class="options sum">+</button>
-            <button class="number zero">0</button>
-            <button class="number dot">.</button>
-            <button class="options equals">=</button>
+            <button onclick="getElementOfHtml(this)" class="options reset">AC</button>
+            <button onclick="getElementOfHtml(this)" class="options delete">Del</button>
+            <button onclick="getElementOfHtml(this)" class="options percent">%</button>
+            <button onclick="getElementOfHtml(this)" class="options bash">/</button>
+            <button onclick="getElementOfHtml(this)" class="number seven">7</button>
+            <button onclick="getElementOfHtml(this)" class="number eight">8</button>
+            <button onclick="getElementOfHtml(this)" class="number nine">9</button>
+            <button onclick="getElementOfHtml(this)" class="options multi">X</button>
+            <button onclick="getElementOfHtml(this)" class="number four">4</button>
+            <button onclick="getElementOfHtml(this)" class="number five">5</button>
+            <button onclick="getElementOfHtml(this)" class="number six">6</button>
+            <button onclick="getElementOfHtml(this)" class="options less">-</button>
+            <button onclick="getElementOfHtml(this)" class="number one">1</button>
+            <button onclick="getElementOfHtml(this)" class="number two">2</button>
+            <button onclick="getElementOfHtml(this)" class="number three">3</button>
+            <button onclick="getElementOfHtml(this)" class="options sum">+</button>
+            <button onclick="getElementOfHtml(this)" class="number zero">0</button>
+            <button onclick="getElementOfHtml(this)" class="number dot">.</button>
+            <button onclick="calculatingExpression()" class="options equals">=</button>
           </div>
         </section>
       </div>
     </main>
+
+    <script src="javascript/main.js"></script>
   </body>
 </html>
