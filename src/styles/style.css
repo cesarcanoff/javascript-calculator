@@ -20,6 +20,7 @@ main {
 }
 
 .calculator {
+  overflow: hidden;
   width: 70%;
   max-width: 400px;
   border-radius: 40px;
@@ -43,19 +44,6 @@ header.screen .result {
 
 header.screen .result p {
   font-size: 5em;
-}
-
-header.screen .operation {
-  display: flex;
-  padding: 2%;
-  height: 50px;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-header.screen .operation p {
-  color: #8b8b8b;
-  font-size: 1em;
 }
 
 .calculator section.buttons {

@@ -3,10 +3,6 @@
     font-size: 4em;
   }
 
-  header.screen .operation p {
-    font-size: 1.2em;
-  }
-
   .calculator section.buttons {
     column-gap: 10px;
     row-gap: 10px;
@@ -22,10 +18,6 @@
 
   header.screen .result p {
     font-size: 3em;
-  }
-
-  header.screen .operation p {
-    font-size: 0.8em;
   }
 
   .calculator section.buttons {
@@ -49,10 +41,6 @@
 
   header.screen .result p {
     font-size: 3em;
-  }
-
-  header.screen .operation p {
-    font-size: 0.9em;
   }
 
   .calculator section.buttons {
