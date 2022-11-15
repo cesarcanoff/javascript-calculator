@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://github.com/cesarcanoff/startse-tech-academy/" title="Translate to English"><img src="https://img.freepik.com/vetores-gratis/ilustracao-de-bandeira-eua_53876-18165.jpg?w=2000" align="right" width="40px" height="30px" /></a>
+<a href="https://github.com/cesarcanoff/javascript-calculator/" title="Translate to English"><img src="https://img.freepik.com/vetores-gratis/ilustracao-de-bandeira-eua_53876-18165.jpg?w=2000" align="right" width="40px" height="30px" /></a>
   <img src="images/logo.png" width="150" />
   <h1>Calculadora em Javascript</h1>
 </div>
