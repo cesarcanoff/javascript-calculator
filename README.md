@@ -1,4 +1,5 @@
 <div align="center">
+<a href="./README-pt-BR.md" title="Traduzir para Português (BR)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9OrU-515I2yoUzp2eBxRr5esQSED4Tce19LeNxfsxQ&s" align="right" width="40px" height="30px" /></a>
   <img src="images/logo.png" width="150" />
   <h1>Javascript Calculator</h1>
 </div>
